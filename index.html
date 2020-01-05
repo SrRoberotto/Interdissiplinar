@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sistema de Notoficação</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"  href="css/index.css">
+        <script
+              src="https://code.jquery.com/jquery-3.4.1.js"></script>
+              <script type="text/javascript">
+              $(window).on('scroll', function(){
+                  if ($(window).scrollTop()){
+                      $('nav').addClass('black');
+                  }
+                  else{
+                      $('nav').removeClass('black');
+
+                  }
+              });
+              </script>
+		
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="fotos/logo_ifba.jpg">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="fiqueatento.html">Fique Atento</a></li>
+                <li><a href="colabore.html">Colabore</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <section class="sessao1"></section>
+        <section class="content">
+            <h1>Lei sancionada</h1>
+            <p>Fala sobre a lei</p>
+        </section>
+        <section class="sessao2"></section>
+                <section class="content">
+                        <h1>Sobre o sistemas</h1>
+                        <p>Fala sobre o sistemas</p>
+                    </section>
+                    <section class="sessao3"></section>
+                    <section class="content">
+                            <h1> ajuda</h1>
+                            <p> Aonde buscar ajuda</p>
+                        </section>
+    </body>
+</html>
